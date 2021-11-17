@@ -1,0 +1,15 @@
+fluxo do git
+
+git init => inicializa o repositorio Git(nessesário)
+git add . => prepara os arquivos para ser commitados
+git commit -m "Mensagem" => faz o commit dos arquivos preparados
+git status => mostra todas as pendencias
+git rm --cached index.html => volta os arquivos adicionados com o: git add . 
+
+configurando o usuario
+git config --global user.name "Rafael Souza"
+git config --global user.email "rs6499533@gmail.com"
+
+git --version => mostra a versão do git
+
+
