@@ -25,3 +25,8 @@ PARA FAZER O COMANDO ( git merge "branch-selecionada" ), você deve estar na bra
 git merge cadastro-cliente => junta as branch, development recebe as alterações do cadastro-cliente    
 ----------
 
+--- Conectando com o servidor Remoto - gitHub
+git remote add origin URL
+git branch -M main => renomeia uma branch
+
+
