@@ -16,6 +16,6 @@ git --version => mostra a versão do git
 git branch development => cria uma branch
 git branch => mostra todas as branch
 git checkout development => muda para a branch selecionada
-git 
+git merge cadastro-cliente => junta as branch, development recebe as alterações do cadastro-cliente
 
 
