@@ -12,4 +12,10 @@ git config --global user.email "rs6499533@gmail.com"
 
 git --version => mostra a versão do git
 
+--- criando uma branch --
+git branch development => cria uma branch
+git branch => mostra todas as branch
+git checkout development => muda para a branch selecionada
+git 
+
 
