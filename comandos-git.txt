@@ -1,21 +1,27 @@
-fluxo do git
 
+--- Fluxo do git
 git init => inicializa o repositorio Git(nessesário)
 git add . => prepara os arquivos para ser commitados
 git commit -m "Mensagem" => faz o commit dos arquivos preparados
 git status => mostra todas as pendencias
 git rm --cached index.html => volta os arquivos adicionados com o: git add . 
 
-configurando o usuario
+--- Configurando o usuario
 git config --global user.name "Rafael Souza"
 git config --global user.email "rs6499533@gmail.com"
 
+--- Comando para ver a versão do git
 git --version => mostra a versão do git
 
---- criando uma branch --
+--- Criando uma branch --
 git branch development => cria uma branch
 git branch => mostra todas as branch
 git checkout development => muda para a branch selecionada
-git merge cadastro-cliente => junta as branch, development recebe as alterações do cadastro-cliente
 
+---- Usando o comando: merge ------
+PARA FAZER O COMANDO ( git merge "branch-selecionada" ), você deve estar na branch que ira receber 
+    os arquivos usando o comando (git checkout "branch-selecionada"), so dara serto se a branch recebida 
+    estiver commitada com o comando (git commit -m "Mensagem").
+git merge cadastro-cliente => junta as branch, development recebe as alterações do cadastro-cliente    
+----------
 
